@@ -6,3 +6,10 @@ nav {
     margin: 20px;
     padding: 10px;
 }
+
+#kori span {
+    position: relative;
+    top: -10px;
+    left: -2px;
+    font-size: 0.8em;
+}

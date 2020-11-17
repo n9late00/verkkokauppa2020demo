@@ -9,6 +9,8 @@ class Home extends BaseController
 
 	function __construct()
 	{
+		$session = \Config\Services::session();
+        $session->start();
 		$this->tuoteryhmaModel = new TuoteryhmaModel();
 		$this->tuoteModel = new TuoteModel();
 	}

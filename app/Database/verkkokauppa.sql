@@ -22,7 +22,7 @@ CREATE TABLE tuote (
     varastomaara SMALLINT unsigned,
     tuoteryhma_id int NOT NULL,
     INDEX tuoteryhma_id (tuoteryhma_id),
-    FOREIGN KEY (tuoteryhma_id) REFERENCES tuoteryhma_id(id)
+    FOREIGN KEY (tuoteryhma_id) REFERENCES tuoteryhma(id)
     ON DELETE RESTRICT
 );
 
